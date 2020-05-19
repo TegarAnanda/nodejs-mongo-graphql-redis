@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-mongo-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Tegar",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.6",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "apollo-engine": "^1.1.2",
+    "apollo-server": "^2.13.1",
+    "apollo-server-express": "^2.13.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^5.0.0",
+    "mongoose": "^5.9.14",
+    "mongoose-unique-validator": "^2.0.3",
+    "redis": "^3.0.2",
+    "sequelize": "^5.21.9",
+    "util": "^0.12.3",
+    "uuid": "^8.0.0",
+    "validator": "^13.0.0"
+  }
+}
